@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="350dp"
+          android:orientation="vertical">
+
+         <ImageView
+             android:layout_width="40dp"
+             android:layout_height="10dp"
+             android:background="@drawable/img"/>
+
+         <ImageView
+             android:layout_width="40dp"
+             android:layout_height="10dp"
+             android:background="@drawable/img"/>
+
+         <ImageView
+             android:layout_width="30dp"
+             android:layout_height="10dp"
+             android:background="@drawable/img"/>
+
+      </LinearLayout>
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="img_one"/>
+
+   </LinearLayout>
+
+   <FrameLayout
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="30dp"
+       android:layout_width="350dp"
+       android:layout_height="40dp"
+       android:background="@drawable/shape">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Search"
+          android:textSize="20dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="20dp"/>
+
+
+      <ImageView
+          android:layout_width="20dp"
+          android:layout_height="25dp"
+          android:layout_gravity="center"
+          android:layout_marginLeft="150dp"
+         android:background="@drawable/pngwing"/>
+
+   </FrameLayout>
+
+
+   <FrameLayout
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="30dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Favorites"
+          android:textSize="22dp"
+          android:textStyle="bold"
+          android:layout_marginTop="5dp"/>
+   </FrameLayout>
+
+   <LinearLayout
+       android:layout_marginTop="150dp"
+       android:layout_marginLeft="0dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <ImageView
+          android:layout_width="125dp"
+          android:layout_height="140dp"
+          android:layout_gravity="center"
+          android:layout_marginLeft="10dp"
+          android:background="@drawable/ione"
+          android:rotation="-10"/>
+
+      <ImageView
+          android:layout_width="125dp"
+          android:layout_height="140dp"
+          android:layout_gravity="center"
+          android:layout_marginLeft="20dp"
+          android:background="@drawable/itwo" />
+
+      <ImageView
+          android:layout_width="125dp"
+          android:layout_height="140dp"
+          android:layout_gravity="center"
+          android:layout_marginLeft="20dp"
+          android:background="@drawable/ithree" />
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_marginTop="300dp"
+       android:layout_marginLeft="30dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Resent uploads"
+          android:textSize="22dp"
+          android:textStyle="bold"
+          android:textColor="#3E54AC"
+          android:layout_marginTop="5dp"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="November 11"
+          android:textSize="16dp"
+          android:textStyle="bold"
+          android:textColor="#838383" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="360dp"
+       android:layout_height="220dp"
+       android:layout_marginTop="360dp"
+       android:layout_marginLeft="20dp"
+       android:background="@drawable/shape_wo"
+       android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2 photo uploaded"
+                android:textColor="#3E54AC"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cloude < photo < nature"
+                android:textColor="#838383"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+         </LinearLayout>
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginLeft="120dp"
+             android:background="@drawable/group" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:orientation="horizontal">
+
+         <ImageView
+             android:layout_width="125dp"
+             android:layout_height="140dp"
+             android:layout_gravity="center"
+             android:layout_marginLeft="35dp"
+             android:background="@drawable/itwo" />
+
+         <ImageView
+             android:layout_width="125dp"
+             android:layout_height="140dp"
+             android:layout_gravity="center"
+             android:layout_marginLeft="20dp"
+             android:background="@drawable/ithree" />
+      </LinearLayout>
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="365dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="600dp"
+       android:background="@drawable/shape_wo"
+       android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="25dp"
+          android:layout_marginTop="5dp"
+          android:orientation="horizontal">
+
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2 photo uploaded"
+                android:textColor="#3E54AC"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cloude < photo < nature"
+                android:textColor="#838383"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+         </LinearLayout>
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginLeft="120dp"
+             android:background="@drawable/group" />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="25dp"
+          android:orientation="vertical">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:text="2 photo uploaded"
+             android:textColor="#3E54AC"
+             android:textSize="18dp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="cloude < photo < nature"
+             android:textColor="#838383"
+             android:textSize="16dp"
+             android:textStyle="bold" />
+      </LinearLayout>
+   </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
+</FrameLayout>
